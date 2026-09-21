@@ -1,0 +1,19 @@
+{
+  "single_intent": {
+    "count_per_tool": 110,
+    "batch_size": 11
+  },
+
+  "multi_intent": {
+    "batch_size":1,
+    "flow_count_distribution": {
+      "order_flow": 550,
+      "promotion_flow": 880,
+      "shopping_flow": 1320,
+      "aftersale_flow": 330,
+      "profile_flow": 110,
+      "complex_agent_flow": 110
+    }
+  }
+
+}

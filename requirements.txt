@@ -1,0 +1,49 @@
+# ===== 模型推理 =====
+
+transformers==5.10.1
+torch>=2.5
+accelerate>=1.13
+
+# ===== 模型下载 =====
+
+modelscope
+huggingface_hub
+safetensors
+
+# ===== 数据处理 =====
+
+numpy
+pandas
+tqdm
+scikit-learn==1.7.2
+
+# ===== API调用 =====
+
+openai
+python-dotenv
+
+# ===== 配置解析 =====
+
+PyYAML
+
+# ===== 工具库 =====
+
+requests
+psutil
+
+# ===== Embedding =====
+
+sentence-transformers==5.6.0
+faiss-cpu==1.14.3
+
+# ====== 中文分词 =======
+jieba
+
+# ======== BM25 =========
+rank-bm25
+
+# ===== Embedding模型微调 =====
+FlagEmbedding
+
+# ======== 绘图 ========
+matplotlib

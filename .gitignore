@@ -1,0 +1,44 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python environments
+.venv/
+.conda/
+venv/
+env/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# macOS and editors
+.DS_Store
+.vscode/
+
+# Local model caches and logs
+model_cache/
+reranker_train.log
+
+# Keep the tests directory structure, but not its contents.
+# Add a .gitkeep file to each directory that must appear on GitHub.
+tests/**
+!tests/**/
+!tests/**/.gitkeep
+
+# Keep the model directory structure, but not model files.
+# Add a .gitkeep file to each directory that must appear on GitHub.
+model/**
+!model/**/
+!model/**/.gitkeep
+
+# Keep the outputs directory structure, but ignore files by default.
+outputs/**
+!outputs/**/
+!outputs/**/.gitkeep
+
+# These two output directories and all their files are public.
+!outputs/single_intent/**
+!outputs/multi_intent/**

@@ -1,0 +1,5 @@
+{
+    "tokenizer": "jieba",
+    "user_dict": "configs/user_query_dict.txt",
+    "description_field": "enhanced_description"
+}

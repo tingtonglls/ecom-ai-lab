@@ -1,0 +1,82 @@
+[
+  {
+    "index": 0,
+    "tool_name": "get_order_list"
+  },
+  {
+    "index": 1,
+    "tool_name": "get_order_detail"
+  },
+  {
+    "index": 2,
+    "tool_name": "get_order_logistics"
+  },
+  {
+    "index": 3,
+    "tool_name": "can_merge_ship"
+  },
+  {
+    "index": 4,
+    "tool_name": "create_refund_request"
+  },
+  {
+    "index": 5,
+    "tool_name": "get_item_info"
+  },
+  {
+    "index": 6,
+    "tool_name": "get_stock"
+  },
+  {
+    "index": 7,
+    "tool_name": "get_similar_items"
+  },
+  {
+    "index": 8,
+    "tool_name": "create_cart_item"
+  },
+  {
+    "index": 9,
+    "tool_name": "get_cart_summary"
+  },
+  {
+    "index": 10,
+    "tool_name": "get_current_promotions"
+  },
+  {
+    "index": 11,
+    "tool_name": "calc_discount"
+  },
+  {
+    "index": 12,
+    "tool_name": "get_available_coupons"
+  },
+  {
+    "index": 13,
+    "tool_name": "apply_coupon"
+  },
+  {
+    "index": 14,
+    "tool_name": "get_return_policy"
+  },
+  {
+    "index": 15,
+    "tool_name": "get_refund_status"
+  },
+  {
+    "index": 16,
+    "tool_name": "create_aftersale_ticket"
+  },
+  {
+    "index": 17,
+    "tool_name": "get_user_profile"
+  },
+  {
+    "index": 18,
+    "tool_name": "get_browsing_history"
+  },
+  {
+    "index": 19,
+    "tool_name": "get_purchase_history"
+  }
+]

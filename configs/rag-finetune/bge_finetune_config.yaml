@@ -1,0 +1,26 @@
+model:
+  name: BAAI/bge-base-zh-v1.5
+  output_dir: model/my-bge-base
+
+dataset:
+  train_data: dataset/tool_calling_trace/train/intent_train_flagembedding.jsonl
+
+training:
+  epochs: 1
+  batch_size: 16
+  learning_rate: 1e-5
+  warmup_ratio: 0.1
+  save_strategy: epoch
+  save_total_limit: 3
+  seed: 42
+
+embedding:
+  query_instruction: "Represent this sentence for searching relevant tool descriptions: "
+  query_max_len: 128
+  passage_max_len: 256
+  train_group_size: 1
+  normalize_embeddings: true
+
+logging:
+  logging_steps: 20
+  save_loss_curve: true
