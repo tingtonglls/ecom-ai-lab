@@ -1,0 +1,10 @@
+{
+  "tool_trace_sft": {
+    "file_name": "sft_train.jsonl",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  }
+}

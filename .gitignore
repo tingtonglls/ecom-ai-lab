@@ -39,6 +39,9 @@ outputs/**
 !outputs/**/
 !outputs/**/.gitkeep
 
-# These two output directories and all their files are public.
+# These output directories and all their files are public.
 !outputs/single_intent/**
 !outputs/multi_intent/**
+!outputs/infer/qwen3_8b_smoke_10.jsonl
+!outputs/infer/qwen3_8b_rag_top5_smoke_10.jsonl
+dataset/tool_calling_trace/train/sft_train_stats.json
