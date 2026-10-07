@@ -1,4 +1,4 @@
-"""实验三：构建 LLaMA-Factory Alpaca 格式的工具调用轨迹 SFT 数据集。
+"""构建 LLaMA-Factory Alpaca 格式的工具调用轨迹 SFT 数据集。
 
 默认生成：
 - 3000 条单意图数据：1 个 GT 工具 + 1～4 个同类干扰工具。

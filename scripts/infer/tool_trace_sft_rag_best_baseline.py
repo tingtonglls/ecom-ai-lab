@@ -1,4 +1,4 @@
-"""实验三第 2 项：基于 RAG 候选工具的 Qwen3-8B LoRA SFT 模型推理。"""
+""" 基于 RAG 候选工具的 Qwen3-8B LoRA SFT 模型推理。"""
 
 import argparse
 import csv

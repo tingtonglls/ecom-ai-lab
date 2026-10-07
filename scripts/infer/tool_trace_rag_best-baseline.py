@@ -1,4 +1,4 @@
-"""实验三第 1 项：基于 RAG 候选工具的 Qwen3-8B 工具调用轨迹推理。"""
+""" 基于 RAG 候选工具的 Qwen3-8B 工具调用轨迹推理。"""
 
 import argparse
 import csv

@@ -1,4 +1,4 @@
-"""实验三第 0 项：Qwen3-8B 无 RAG 工具调用轨迹推理。"""
+""" Qwen3-8B 无 RAG 工具调用轨迹推理。"""
 
 import argparse
 import json

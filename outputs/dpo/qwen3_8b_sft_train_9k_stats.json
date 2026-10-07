@@ -1,0 +1,37 @@
+{
+  "总数": 9000,
+  "正确数": 8983,
+  "错误数": 17,
+  "准确率": 0.9981111111111111,
+  "单意图": {
+    "总数": 3000,
+    "正确数": 2999,
+    "错误数": 1,
+    "准确率": 0.9996666666666667
+  },
+  "多意图": {
+    "总数": 6000,
+    "正确数": 5984,
+    "错误数": 16,
+    "准确率": 0.9973333333333333
+  },
+  "解析错误数": 0,
+  "错误类型统计": {
+    "遗漏工具": 8,
+    "工具顺序错误": 5,
+    "多余工具": 5,
+    "错误工具替换": 1
+  },
+  "错误类型说明": "错误类型允许多标签，因此各类型数量之和可能大于错误总数。",
+  "metadata": {
+    "model": "/root/autodl-tmp/modelscope-cache/models/Qwen--Qwen3-8B/snapshots/master",
+    "adapter": "/root/autodl-tmp/LLaMA-Factory/saves/Qwen3-8B-Thinking/lora/qwen3-8b-tool-trace-lora-sft",
+    "finetuning": "lora_sft",
+    "input": "/root/autodl-tmp/tool-trace-baseline/dataset/tool_calling_trace/train/sft_train.jsonl",
+    "batch_size": 2,
+    "max_new_tokens": 128,
+    "thinking": false,
+    "generation": "greedy",
+    "generated_at": "2026-10-06T15:09:19.164995+00:00"
+  }
+}
