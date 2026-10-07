@@ -46,3 +46,5 @@ outputs/**
 !outputs/infer/qwen3_8b_rag_top5_smoke_10.jsonl
 !outputs/dpo/qwen3_8b_sft_train_9k_stats.json
 dataset/tool_calling_trace/train/sft_train_stats.json
+dataset/tool_calling_trace/train/dpo_train_stats.json
+dataset/tool_calling_trace/train/dpo_train.jsonl

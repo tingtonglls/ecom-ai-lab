@@ -6,5 +6,15 @@
       "query": "input",
       "response": "output"
     }
+  },
+  "tool_trace_dpo": {
+    "file_name": "dpo_train.jsonl",
+    "ranking": true,
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "chosen": "chosen",
+      "rejected": "rejected"
+    }
   }
 }
